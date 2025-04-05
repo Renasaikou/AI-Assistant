@@ -22,7 +22,7 @@ converter = opencc.OpenCC('t2s.json')  # t2s 表示繁体到简体
 # 配置参数
 RECORD_SECONDS = 5  # 每次录音时长（仅用于唤醒阶段）
 WAVE_OUTPUT_FILENAME = "output.wav"  # 录音文件名
-MODEL_PATH = "./models/faster-whisper-base"  # 模型路径
+MODEL_PATH = "./faster-whisper-base"  # 模型路径
 GLM_API_KEY = "05dfdb57375347c488d28bac780b581a.g9gDkxmAYWmGxhPn"  # 替换为你的智谱 GLM-4V-Flash API 密钥
 TTS_NAME = "zh-CN-XiaoxiaoNeural"  # TTS 音色
 TEMP_FOLDER = "temp"  # 临时文件夹名称
